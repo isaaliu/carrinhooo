@@ -1,0 +1,48 @@
+<!-- Conteúdo principal da página -->
+ <main>
+    <!--seção do carrinho-->
+    <section class="carrinho">
+        <!-- Tabela de produtos no carrinho -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+              <!-- Produto !-->
+                <tr>
+                    <td>Produto Exemplo 1</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preco-unitario">R$ 50,00</td>
+                    <td class="total">R$ 50,00</td>
+                    <td>
+                        <button class="remover">Remover</button>
+                    </td>
+                </tr>
+                <!-- Produto !-->
+                <tr>
+                    <td>Produto Exemplo 2</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preco-unitario">R$ 30,00</td>
+                    <td class="total">R$ 60,00</td>
+                    <td>
+                     <button class="remover">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Exibição do total final-->
+        <div class="total-final">
+            <h3>Total Final: <span id="total-final">R$ 110,00</span></h3>
+
+</html>
